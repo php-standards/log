@@ -1,0 +1,26 @@
+{
+    "name": "php-standards/log",
+    "description": "Common interface for logging libraries",
+    "keywords": ["psr", "psr-3", "log"],
+    "homepage": "https://github.com/php-standards/log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP-Standards",
+            "homepage": "https://github.com/php-standards/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Php\\Log\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
